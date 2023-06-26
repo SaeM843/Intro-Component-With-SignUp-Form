@@ -1,0 +1,9 @@
+@use "./variables" as var;
+
+body {
+    background-image: url("../images/bg-intro-desktop.png");
+    background-color: var.$red;
+    font-family: var.$main-font;
+    font-size: var.$main-font-size;
+    color: white;
+}
