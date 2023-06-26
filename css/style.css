@@ -17,4 +17,8 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 
+.left-card h1 {
+  font-size: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */
