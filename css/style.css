@@ -5,6 +5,15 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
 }
 
 /*# sourceMappingURL=style.css.map */

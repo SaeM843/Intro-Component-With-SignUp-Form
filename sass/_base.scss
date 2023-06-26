@@ -6,4 +6,13 @@ body {
     font-family: var.$main-font;
     font-size: var.$main-font-size;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
 }
