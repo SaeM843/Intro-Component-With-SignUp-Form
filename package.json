@@ -20,5 +20,8 @@
   "homepage": "https://github.com/SaeM843/Intro-Component-With-SignUp-Form#readme",
   "dependencies": {
     "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "modern-css-reset": "^1.4.0"
   }
 }
