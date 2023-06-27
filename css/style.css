@@ -76,6 +76,17 @@ form button {
   font-weight: 500;
   box-shadow: 0 0.3rem 0rem hsl(154, 82%, 36%);
   border-radius: 0.4rem;
+  cursor: pointer;
+}
+form .term-condition {
+  font-size: 0.7rem;
+  margin: 1.2rem 0;
+  font-weight: 600;
+  color: hsl(246, 25%, 77%);
+}
+form .red {
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
