@@ -45,19 +45,9 @@ form {
   width: 540px;
   border-radius: 0.5rem;
 }
-form input {
-  width: 95%;
-  padding: 0.8rem;
-}
-form .status {
-  text-align: right;
-  font-size: 0.8rem;
-  font-weight: 500;
-  padding: 0.5rem 1.5rem 1rem 0;
-  font-style: italic;
-}
 form .input-container {
   position: relative;
+  margin-bottom: 1.2rem;
 }
 form .input-container .error-icon {
   background-image: url("../images/icon-error.svg");
@@ -66,6 +56,19 @@ form .input-container .error-icon {
   height: 1.5rem;
   right: 3rem;
   top: 0.95rem;
+  display: none;
+}
+form .input-container input {
+  width: 95%;
+  padding: 0.8rem;
+}
+form .input-container .status {
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem 1rem 0;
+  font-style: italic;
+  display: none;
 }
 form button {
   width: 95%;

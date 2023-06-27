@@ -8,22 +8,11 @@ form {
     width: 540px;
     border-radius: 0.5rem;
 
-    input {
-        width: 95%;
-        padding: 0.8rem;
-    }
-
-    .status {
-        text-align: right;
-        font-size: 0.8rem;
-        font-weight: 500;
-        padding: 0.5rem 1.5rem 1rem 0;
-        font-style: italic;
-    }
-
+    
     .input-container {
         position: relative;
-
+        margin-bottom: 1.2rem;
+        
         .error-icon {
             background-image: url("../images/icon-error.svg");
             position: absolute;
@@ -31,6 +20,21 @@ form {
             height: 1.5rem;
             right: 3rem;
             top: 0.95rem;
+            display: none;
+        }
+
+        input {
+            width: 95%;
+            padding: 0.8rem;
+        }
+    
+        .status {
+            text-align: right;
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding: 0.5rem 1.5rem 1rem 0;
+            font-style: italic;
+            display: none;
         }
     }
 
@@ -67,4 +71,6 @@ form {
             text-decoration: none;
         }
     }
+
+    
 }
