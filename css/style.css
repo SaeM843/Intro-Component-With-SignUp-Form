@@ -17,6 +17,9 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 
+.left-card {
+  margin-right: 2rem;
+}
 .left-card h1 {
   font-size: 3rem;
 }
