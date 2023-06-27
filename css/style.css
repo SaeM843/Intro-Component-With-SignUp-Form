@@ -49,6 +49,10 @@ form input {
 }
 form .status {
   text-align: right;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem 1rem 0;
+  font-style: italic;
 }
 form .input-container {
   position: relative;
