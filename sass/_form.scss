@@ -5,9 +5,10 @@ form {
     color: var.$red;
     padding: 2rem;
     text-align: center;
+    width: 540px;
 
     input {
-        width: 90%;
+        width: 95%;
         padding: 0.8rem;
     }
 
@@ -33,7 +34,7 @@ form {
     }
 
     button {
-        width: 90%;
+        width: 95%;
         border: none;
         padding: 1rem 0;
         background-color: var.$green;
@@ -42,5 +43,9 @@ form {
         font-weight: 500;
         box-shadow: 0 0.3rem 0rem hsl(154deg, 82%, 36%);
         border-radius: 0.4rem;
+    }
+
+    .term-condition {
+        
     }
 }

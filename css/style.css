@@ -42,9 +42,10 @@ form {
   color: hsl(0, 100%, 74%);
   padding: 2rem;
   text-align: center;
+  width: 540px;
 }
 form input {
-  width: 90%;
+  width: 95%;
   padding: 0.8rem;
 }
 form .status {
@@ -66,7 +67,7 @@ form .input-container .error-icon {
   top: 0.95rem;
 }
 form button {
-  width: 90%;
+  width: 95%;
   border: none;
   padding: 1rem 0;
   background-color: hsl(154, 59%, 51%);
