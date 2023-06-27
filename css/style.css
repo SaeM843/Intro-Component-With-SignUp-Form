@@ -43,6 +43,7 @@ form {
   padding: 2rem;
   text-align: center;
   width: 540px;
+  border-radius: 0.5rem;
 }
 form input {
   width: 95%;
@@ -88,9 +89,12 @@ form .term-condition {
   font-weight: 600;
   color: hsl(246, 25%, 77%);
 }
-form .red {
+form .term-condition .red {
   color: hsl(0, 100%, 74%);
   font-weight: 700;
+}
+form .term-condition a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

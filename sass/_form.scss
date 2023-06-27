@@ -6,6 +6,7 @@ form {
     padding: 2rem;
     text-align: center;
     width: 540px;
+    border-radius: 0.5rem;
 
     input {
         width: 95%;
@@ -56,9 +57,14 @@ form {
         margin: 1.2rem 0;
         font-weight: 600;
         color: var.$grayish-blue;
-    }
-    .red {
-        color: var.$red;
-        font-weight: 700;
+        
+        .red {
+            color: var.$red;
+            font-weight: 700;
+        }
+
+        a {
+            text-decoration: none;
+        }
     }
 }
