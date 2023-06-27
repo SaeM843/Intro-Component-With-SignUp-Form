@@ -44,6 +44,11 @@ form {
         box-shadow: 0 0.3rem 0rem hsl(154deg, 82%, 36%);
         border-radius: 0.4rem;
         cursor: pointer;
+
+        &:hover {
+            background-color: #77e2b3;
+            box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+        }
     }
 
     .term-condition {

@@ -78,6 +78,10 @@ form button {
   border-radius: 0.4rem;
   cursor: pointer;
 }
+form button:hover {
+  background-color: #77e2b3;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+}
 form .term-condition {
   font-size: 0.7rem;
   margin: 1.2rem 0;
