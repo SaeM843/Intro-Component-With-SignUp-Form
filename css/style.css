@@ -65,5 +65,16 @@ form .input-container .error-icon {
   right: 3rem;
   top: 0.95rem;
 }
+form button {
+  width: 90%;
+  border: none;
+  padding: 1rem 0;
+  background-color: hsl(154, 59%, 51%);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 0.3rem 0rem hsl(154, 82%, 36%);
+  border-radius: 0.4rem;
+}
 
 /*# sourceMappingURL=style.css.map */

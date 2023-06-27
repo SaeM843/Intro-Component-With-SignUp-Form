@@ -31,4 +31,16 @@ form {
             top: 0.95rem;
         }
     }
+
+    button {
+        width: 90%;
+        border: none;
+        padding: 1rem 0;
+        background-color: var.$green;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        box-shadow: 0 0.3rem 0rem hsl(154deg, 82%, 36%);
+        border-radius: 0.4rem;
+    }
 }
