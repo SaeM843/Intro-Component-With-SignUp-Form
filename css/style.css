@@ -24,5 +24,8 @@ main {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+form {
+  background-color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
