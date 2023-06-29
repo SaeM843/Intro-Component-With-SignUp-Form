@@ -11,9 +11,7 @@ form.addEventListener("submit", (e) => {
         // console.log(input.parentElement)
 
         if(!input.value) {
-            input.parentElement.classList.add("error");
-        } else {
-            input.parentElement.classList.remove("error");
+            input.parentElement.classList.toggle("error");
         }
     })
 })
