@@ -49,7 +49,7 @@ form .input-container {
   position: relative;
   margin-bottom: 1.2rem;
 }
-form .input-container .error-icon .statu {
+form .input-container .error-icon, form .input-container .status {
   display: none;
 }
 form .input-container.error .error-icon {
@@ -59,6 +59,7 @@ form .input-container.error .error-icon {
   height: 1.5rem;
   right: 3rem;
   top: 0.95rem;
+  display: block;
 }
 form .input-container input {
   width: 95%;
@@ -70,6 +71,7 @@ form .input-container.error .status {
   font-weight: 500;
   padding: 0.5rem 1.5rem 1rem 0;
   font-style: italic;
+  display: block;
 }
 form button {
   width: 95%;

@@ -13,7 +13,7 @@ form {
         position: relative;
         margin-bottom: 1.2rem;
 
-        .error-icon .statu {
+        .error-icon, .status {
             display: none;
         }
         
@@ -24,6 +24,7 @@ form {
             height: 1.5rem;
             right: 3rem;
             top: 0.95rem;
+            display: block;
         }
 
         input {
@@ -37,6 +38,7 @@ form {
             font-weight: 500;
             padding: 0.5rem 1.5rem 1rem 0;
             font-style: italic;
+            display: block;
         }
     }
 
