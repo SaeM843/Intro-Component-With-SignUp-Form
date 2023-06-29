@@ -8,13 +8,12 @@ form.addEventListener("submit", (e) => {
 
     inputs.forEach((input) => {
         // console.log(input.value);
+        // console.log(input.parentElement)
 
         if(!input.value) {
-            statusMessages.style.display = "block"
-            errorIcon.style.display = "block"
+            input.parentElement.classList.add("error");
         } else {
-            statusMessages.style.display = "none"
-            errorIcon.style.display = "none"
+            input.parentElement.classList.remove("error");
         }
     })
 })

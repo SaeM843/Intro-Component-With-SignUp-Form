@@ -12,15 +12,18 @@ form {
     .input-container {
         position: relative;
         margin-bottom: 1.2rem;
+
+        .error-icon .statu {
+            display: none;
+        }
         
-        .error-icon {
+        &.error .error-icon {
             background-image: url("../images/icon-error.svg");
             position: absolute;
             width: 1.5rem;
             height: 1.5rem;
             right: 3rem;
             top: 0.95rem;
-            display: none;
         }
 
         input {
@@ -28,13 +31,12 @@ form {
             padding: 0.8rem;
         }
     
-        .status {
+        &.error .status {
             text-align: right;
             font-size: 0.8rem;
             font-weight: 500;
             padding: 0.5rem 1.5rem 1rem 0;
             font-style: italic;
-            display: none;
         }
     }
 
