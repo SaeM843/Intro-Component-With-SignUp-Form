@@ -6,18 +6,22 @@ const statusMessages = document.querySelector(".status");
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
+    
     inputs.forEach((input) => {
         // console.log(input.value);
         // console.log(input.parentElement)
+        const inputValue = input.value.trim();
+        console.log(inputValue);
 
-        if(!input.value) {
+        if(!inputValue) {
             input.parentElement.classList.add("error");
+            
         } else {
             input.parentElement.classList.remove("error")
 
-            /* if(input.type == "email") {
-                if (!isEmail(input.value)) {
-                    input.parentElement.classList.toggle("error");
+           /* if(input.type == "email") {
+                if (!isEmail(inputValue)) {
+                    input.parentElement.classList.add("error");
                 }
             } */
         }
