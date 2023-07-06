@@ -19,11 +19,11 @@ form.addEventListener("submit", (e) => {
         } else {
             input.parentElement.classList.remove("error")
 
-           /* if(input.type == "email") {
+           if(input.type == "email") {
                 if (!isEmail(inputValue)) {
                     input.parentElement.classList.add("error");
                 }
-            } */
+            }
         }
     })
 })
